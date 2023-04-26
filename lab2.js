@@ -96,35 +96,7 @@ categoryOneProducts.forEach(function(product) {
   product.classList.add('category-1');
 });
 
-// setTimeout(function () {
-//     let modal = document.getElementById("subscribe-modal");
-//     let span = document.getElementById("subscribe-btn-accept");
-//     let timer = document.getElementById("timer");
-//     let count = 5;
-  
-//     modal.style.display = "block";
-//     const interval = setInterval(function () {
-//       count--;
-  
-//       if (count >= 0) {
-//         timer.innerHTML = "Зачекайте " + count + " секунд, щоб закрити рекламу";
-//       } else {
-//         ///clearInterval(interval);
-//         timer.innerHTML = "Ви можете закрити рекламу";
-  
-//         span.classList.add("close-hover");
-//         span.onclick = function () {
-//           modal.style.display = "none";
-//         };
-  
-//         window.onclick = function (event) {
-//           if (event.target == modal) {
-//             modal.style.display = "none";
-//           }
-//         };
-//       }
-//     }, 1000);
-//   }, 9000000);
+
 
   setTimeout(function () {
     let modal = document.getElementById("subcribe");
