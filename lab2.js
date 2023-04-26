@@ -81,15 +81,6 @@ function getCategoryOne() {
     });
   }
 
-//   function getProducts() {
-//     // отримати всі картки продуктів
-//     let products = document.querySelectorAll('.card');
-//     // показати їх
-//     products.forEach(function(product) {
-//       product.style.display = 'block';
-//     });
-//   }
-
   // обрати картки продуктів, які відносяться до категорії 1, та додати їм клас "category-1"
 let categoryOneProducts = document.querySelectorAll('.category-1');
 categoryOneProducts.forEach(function(product) {
